@@ -56,7 +56,7 @@ public class TelaLogin extends JFrame {
 					exibir.setVisible(true);	
 					
 					TelaPrincipal.cadastrosUsuarios.setEnabled(true);
-					TelaPrincipal.relatorioServicos.setEnabled(true);
+					//TelaPrincipal.relatorioServicos.setEnabled(true);
 					TelaPrincipal.user.setText(resultQuery.getString(2));
 					TelaPrincipal.cargo.setText(resultQuery.getString(5));
 					
